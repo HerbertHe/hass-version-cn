@@ -22,10 +22,15 @@ jobs:
                   cache: "npm"
             - run: yarn build
 
+            - name: Move files
+              run: |
+                  mv ./_config.temp.yml ./dist/_config.yml
+                  mv./README.dist.md ./dist/README.md
+
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   publish_dir: ./dist
-                  # enable_jekyll: true
+                  enable_jekyll: true
                   cname: version.ha.ibert.me
