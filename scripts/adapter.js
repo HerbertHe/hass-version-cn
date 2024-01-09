@@ -16,6 +16,11 @@ const json_adapter = (c) => {
         "https://mirror.ghproxy.com/https://github.com/"
     )
 
+    tmp = tmp.replace(
+        /"supervisor":\s*"ghcr.io\/([^n]+)"/,
+        `"supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor"`
+    )
+
     while (/"ghcr.io\//.test(tmp)) {
         tmp = tmp.replace(`"ghcr.io`, `"ghcr.nju.edu.cn`)
     }
@@ -52,13 +57,13 @@ const adapter = (name, fn) => {
     const content = fs
         .readFileSync(path.resolve(TMP_P, name), "utf-8")
         .toString()
-    
+
     const result = !!fn ? fn(content) : content
 
     if (!fs.existsSync(DIST_P)) {
         fs.mkdirSync(DIST_P)
     }
-    
+
     fs.writeFileSync(path.resolve(DIST_P, name), result)
 }
 
