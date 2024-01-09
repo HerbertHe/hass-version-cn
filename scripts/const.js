@@ -11,6 +11,6 @@ export const FILES = [
     "update-supervisor.txt", // TODO 之后做处理
 ]
 
-export const GITHUB_URL = `https://raw.githubusercontent.com/home-assistant/version/master/`
+export const GITHUB_URL = `https://ghproxy.net/https://raw.githubusercontent.com/home-assistant/version/master/`
 
 export const get_files_raw_urls = () => FILES.map(f => [f, `${GITHUB_URL}${f}`])

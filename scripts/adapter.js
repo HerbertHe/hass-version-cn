@@ -16,8 +16,8 @@ const json_adapter = (c) => {
         "https://mirror.ghproxy.com/https://github.com/"
     )
 
-    while (/"ghcr.io\//.test(c)) {
-        tmp = c.replace(`"ghcr.io`, `"ghcr.nju.edu.cn/`)
+    while (/"ghcr.io\//.test(tmp)) {
+        tmp = tmp.replace(`"ghcr.io`, `"ghcr.nju.edu.cn`)
     }
 
     return tmp
@@ -30,10 +30,10 @@ const json_adapter = (c) => {
  */
 const rpi_adapter = (c) => {
     let tmp = c
-    while (/"https:\/\/github.com/.test(c)) {
+    while (/"https:\/\/github.com/.test(tmp)) {
         tmp = tmp.replace(
-            `"https://github.com`,
-            '"https//mirror.ghproxy.com/https://github.com'
+            `"https://github.com/`,
+            '"https//mirror.ghproxy.com/https://github.com/'
         )
     }
 
@@ -52,6 +52,7 @@ const adapter = (name, fn) => {
     const content = fs
         .readFileSync(path.resolve(TMP_P, name), "utf-8")
         .toString()
+    
     const result = !!fn ? fn(content) : content
 
     if (!fs.existsSync(DIST_P)) {
@@ -62,5 +63,6 @@ const adapter = (name, fn) => {
 }
 
 export const auto_adapter = () => {
+    console.log("Adapting...")
     FILES.forEach((f) => adapter(f, adapations.get(f)))
 }

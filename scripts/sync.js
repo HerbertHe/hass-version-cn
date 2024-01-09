@@ -16,6 +16,7 @@ const write_to_tmp = (f_name, data) => {
 
 export const fetch_file = async (name, url) => {
     // 写的粗糙，github 执行够用就行
+    console.log(`fetching ${name}...`)
     const res = await fetch(url)
     const data = await res.text()
 
