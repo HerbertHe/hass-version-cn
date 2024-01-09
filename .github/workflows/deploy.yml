@@ -25,7 +25,7 @@ jobs:
             - name: Copy files
               run: |
                   cp ./_config.temp.yml ./dist/_config.yml
-                  cp ./README.dist.md ./dist/README.md
+                  cp ./README.tmp.md ./dist/README.md
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
