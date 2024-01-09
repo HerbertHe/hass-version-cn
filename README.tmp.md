@@ -21,7 +21,7 @@ Improve the update speed of Home Assistant by replacing the download link of `ve
 
 ```diff
 - https://github.com/
-+ https//mirror.ghproxy.com/https://github.com/
++ https://mirror.ghproxy.com/https://github.com/
 ```
 
 查看哔哩哔哩视频了解原理
