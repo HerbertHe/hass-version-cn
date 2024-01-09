@@ -14,7 +14,7 @@ Improve the update speed of Home Assistant by replacing the download link of `ve
 
 See the Video from Bilibili to get the principle
 
-<iframe src="//player.bilibili.com/player.html?aid=835974329&bvid=BV1Pg4y1Q7MQ&cid=1398988642&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+【从源码角度独家分析HomeAssistant更新速度慢的原因及解决思路】 <https://www.bilibili.com/video/BV1Pg4y1Q7MQ/?share_source=copy_web&vd_source=6ce27185244489cf4fec397671080b0a>
 
 ## 信息 Info
 
