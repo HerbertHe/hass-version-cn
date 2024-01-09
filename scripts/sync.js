@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 
 import { get_files_raw_urls } from "./const.js"
+import { auto_adapter } from "./adapter.js"
 
 export const TMP_P = path.resolve("tmp")
 
@@ -24,5 +25,13 @@ export const fetch_file = async (name, url) => {
 export const auto_sync = async () => {
     const urls = get_files_raw_urls()
 
-    urls.forEach(async (u) => await fetch_file(...u))
+    try {
+        Promise.allSettled(urls.map(async (u) => await fetch_file(...u))).then(
+            () => {
+                auto_adapter()
+            }
+        )
+    } catch (e) {
+        throw new Error(e)
+    }
 }
