@@ -10,6 +10,20 @@ Improve the update speed of Home Assistant by replacing the download link of `ve
 
 替换 Home Assistant 的 `version.json` 下载链接，使用镜像站的方式提高更新速度
 
+- `ghcr.io`
+
+```diff
+- ghcr.io/
++ ghcr.nju.edu.cn/
+```
+
+- `GitHub releases`
+
+```diff
+- https://github.com/
++ https//mirror.ghproxy.com/https://github.com/
+```
+
 查看哔哩哔哩视频了解原理
 
 See the Video from Bilibili to get the principle
