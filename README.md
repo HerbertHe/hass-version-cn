@@ -8,6 +8,10 @@ The project is based on [home-assistant/version](https://github.com/home-assista
 
 The proxy for `ghcr.io` is provided by [南京大学镜像站](https://doc.nju.edu.cn/books/35f4a/page/ghcr)
 
+## Supervisor
+
+See [HerbertHe/hass-supervisor-cn](https://github.com/herberthe/hass-supervisor-cn)
+
 ## LICENSE
 
 GPL-3.0 &copy; Herbert He
