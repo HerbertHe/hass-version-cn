@@ -17,7 +17,7 @@ const json_adapter = (c) => {
     )
 
     tmp = tmp.replace(
-        /"supervisor":\s*"ghcr.io\/([^n]+)"/,
+        /"supervisor":\s*"ghcr.io\/([^"]+)"/,
         `"supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor"`
     )
 
