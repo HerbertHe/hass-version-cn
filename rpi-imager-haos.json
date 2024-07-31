@@ -1,64 +1,7 @@
-{
-  "os_list": [
-    {
-      "name": "Home Assistant OS 12.3 (RPi 5)",
-      "description": "Open source home automation that puts local control and privacy first.",
-      "url": "https://github.com/home-assistant/operating-system/releases/download/12.3/haos_rpi5-64-12.3.img.xz",
-      "icon": "https://version.home-assistant.io/brand/logo.png",
-      "extract_size": 2147483648,
-      "extract_sha256": "520dcd7413392847327a5042d0c93ccb220d55b74c9c7af0a98c73c8c30dedb8",
-      "release_date": "2024-05-08",
-      "image_download_size": 270997148,
-      "image_download_sha256": "1eec3e58b2b265e14d28c082ffdd0c2e07d218882429c2d1cf8b35b931715c51",
-      "website": "https://www.home-assistant.io",
-      "devices": [
-        "pi5-64bit"
-      ]
-    },
-    {
-      "name": "Home Assistant OS 12.4 (RPi 4/400)",
-      "description": "Open source home automation that puts local control and privacy first.",
-      "url": "https://github.com/home-assistant/operating-system/releases/download/12.4/haos_rpi4-64-12.4.img.xz",
-      "icon": "https://version.home-assistant.io/brand/logo.png",
-      "extract_size": 2147483648,
-      "extract_sha256": "1e3a2d28e44e4356fcef8bccba763e1826d6285763b986e0148fd6b30e0b9831",
-      "release_date": "2024-06-18",
-      "image_download_size": 274004396,
-      "image_download_sha256": "e918b90756e71c6ef981e4b78c23508fad7c6b1d21177ae50ded50df78474bc1",
-      "website": "https://www.home-assistant.io",
-      "devices": [
-        "pi4-64bit"
-      ]
-    },
-    {
-      "name": "Home Assistant OS 12.4 (RPi 3)",
-      "description": "Open source home automation that puts local control and privacy first.",
-      "url": "https://github.com/home-assistant/operating-system/releases/download/12.4/haos_rpi3-64-12.4.img.xz",
-      "icon": "https://version.home-assistant.io/brand/logo.png",
-      "extract_size": 2147483648,
-      "extract_sha256": "0b88847409ee70cbbd249ad20d0edcac58783060708b33448acda45355fd14cb",
-      "release_date": "2024-06-18",
-      "image_download_size": 270659512,
-      "image_download_sha256": "12f4d01d055003406663535e492af2a5396f862b28314b5e1ba1fb3432af4cd5",
-      "website": "https://www.home-assistant.io",
-      "devices": [
-        "pi3-64bit"
-      ]
-    },
-    {
-      "name": "Home Assistant OS Installer for Yellow",
-      "description": "Installer for Home Assistant Yellow Kit.",
-      "url": "https://github.com/NabuCasa/yellow-buildroot/releases/download/yellow-installer-20231025/yellow-installer-20231025.img.xz",
-      "icon": "https://version.home-assistant.io/rpi-imager-yellow-installer.png",
-      "extract_size": 68157440,
-      "extract_sha256": "7e83edc8360d6a32010b18fa3ecd6fa9a6700be5ed47c21129534581697170a5",
-      "release_date": "2023-10-25",
-      "image_download_size": 33371388,
-      "image_download_sha256": "fa1c4fdd72d116527cf37a1d3b849c480c08fff373b4a6c8d0017dae7da3e3f2",
-      "website": "https://yellow.home-assistant.io",
-      "devices": [
-        "pi4-64bit"
-      ]
-    }
-  ]
-}
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.17.10</center>
+</body>
+</html>
