@@ -1,7 +1,85 @@
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-<hr><center>nginx</center>
-</body>
-</html>
+{
+  "channel": "stable",
+  "supervisor": "2025.05.1",
+  "homeassistant": {
+    "default": "2025.5.3",
+    "qemux86": "2025.5.3",
+    "qemux86-64": "2025.5.3",
+    "qemuarm": "2025.5.3",
+    "qemuarm-64": "2025.5.3",
+    "generic-x86-64": "2025.5.3",
+    "intel-nuc": "2025.5.3",
+    "khadas-vim3": "2025.5.3",
+    "raspberrypi": "2025.5.3",
+    "raspberrypi2": "2025.5.3",
+    "raspberrypi3": "2025.5.3",
+    "raspberrypi3-64": "2025.5.3",
+    "raspberrypi4": "2025.5.3",
+    "raspberrypi4-64": "2025.5.3",
+    "raspberrypi5-64": "2025.5.3",
+    "yellow": "2025.5.3",
+    "green": "2025.5.3",
+    "tinker": "2025.5.3",
+    "odroid-c2": "2025.5.3",
+    "odroid-c4": "2025.5.3",
+    "odroid-m1": "2025.5.3",
+    "odroid-n2": "2025.5.3",
+    "odroid-xu": "2025.5.3"
+  },
+  "hassos": {
+    "ova": "15.2",
+    "rpi2": "15.2",
+    "rpi3": "15.2",
+    "rpi3-64": "15.2",
+    "rpi4": "15.2",
+    "rpi4-64": "15.2",
+    "rpi5-64": "15.2",
+    "yellow": "15.2",
+    "green": "15.2",
+    "tinker": "15.2",
+    "odroid-c2": "15.2",
+    "odroid-c4": "15.2",
+    "odroid-m1": "15.2",
+    "odroid-m1s": "15.2",
+    "odroid-n2": "15.2",
+    "odroid-xu4": "15.2",
+    "generic-x86-64": "15.2",
+    "generic-aarch64": "15.2",
+    "khadas-vim3": "15.2"
+  },
+  "hassos-upgrade": {
+    "11": "11.5",
+    "10": "10.5",
+    "9": "9.5",
+    "8": "8.5",
+    "7": "7.6",
+    "6": "6.6",
+    "5": "5.13",
+    "4": "4.20",
+    "3": "3.13"
+  },
+  "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
+  "cli": "2025.04.0",
+  "dns": "2025.02.0",
+  "audio": "2025.02.0",
+  "multicast": "2025.02.0",
+  "observer": "2025.02.0",
+  "image": {
+    "core": "homeassistant/{machine}-homeassistant",
+    "supervisor": "homeassistant/{arch}-hassio-supervisor",
+    "cli": "homeassistant/{arch}-hassio-cli",
+    "audio": "homeassistant/{arch}-hassio-audio",
+    "dns": "homeassistant/{arch}-hassio-dns",
+    "observer": "homeassistant/{arch}-hassio-observer",
+    "multicast": "homeassistant/{arch}-hassio-multicast"
+  },
+  "images": {
+    "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
+    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
+    "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
+    "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
+    "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
+    "observer": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-observer",
+    "multicast": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-multicast"
+  }
+}
