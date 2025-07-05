@@ -1,6 +1,6 @@
 {
   "channel": "dev",
-  "supervisor": "2025.07.0.dev0302",
+  "supervisor": "2025.07.0.dev0402",
   "homeassistant": {
     "default": "2025.8.0.dev202507030241",
     "qemux86": "2025.8.0.dev202507030241",
@@ -68,18 +68,9 @@
   "audio": "2025.02.0.dev2502",
   "multicast": "2025.02.0.dev2601",
   "observer": "2025.07.0.dev0301",
-  "image": {
-    "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
-    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
-    "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
-    "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
-    "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
-    "observer": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-observer",
-    "multicast": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-multicast"
-  },
   "images": {
     "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
-    "supervisor": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-supervisor",
+    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
     "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
     "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
     "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
