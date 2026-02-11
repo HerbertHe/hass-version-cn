@@ -1,6 +1,6 @@
 {
   "channel": "dev",
-  "supervisor": "2026.02.2.dev0901",
+  "supervisor": "2026.02.2.dev1003",
   "homeassistant": {
     "default": "2026.3.0.dev202602050307",
     "qemux86-64": "2026.3.0.dev202602050307",
@@ -19,20 +19,20 @@
     "odroid-n2": "2026.3.0.dev202602050307"
   },
   "hassos": {
-    "ova": "17.1.dev20260129",
-    "rpi3-64": "17.1.dev20260129",
-    "rpi4-64": "17.1.dev20260129",
-    "rpi5-64": "17.1.dev20260129",
-    "yellow": "17.1.dev20260129",
-    "green": "17.1.dev20260129",
-    "odroid-c2": "17.1.dev20260129",
-    "odroid-c4": "17.1.dev20260129",
-    "odroid-m1": "17.1.dev20260129",
-    "odroid-m1s": "17.1.dev20260129",
-    "odroid-n2": "17.1.dev20260129",
-    "generic-x86-64": "17.1.dev20260129",
-    "generic-aarch64": "17.1.dev20260129",
-    "khadas-vim3": "17.1.dev20260129"
+    "ova": "17.2.dev20260210",
+    "rpi3-64": "17.2.dev20260210",
+    "rpi4-64": "17.2.dev20260210",
+    "rpi5-64": "17.2.dev20260210",
+    "yellow": "17.2.dev20260210",
+    "green": "17.2.dev20260210",
+    "odroid-c2": "17.2.dev20260210",
+    "odroid-c4": "17.2.dev20260210",
+    "odroid-m1": "17.2.dev20260210",
+    "odroid-m1s": "17.2.dev20260210",
+    "odroid-n2": "17.2.dev20260210",
+    "generic-x86-64": "17.2.dev20260210",
+    "generic-aarch64": "17.2.dev20260210",
+    "khadas-vim3": "17.2.dev20260210"
   },
   "hassos-upgrade": {
     "15": "15.2",
@@ -50,11 +50,11 @@
     "3": "3.13"
   },
   "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
-  "cli": "2026.02.0.dev0300",
-  "dns": "2025.02.0.dev2601",
-  "audio": "2025.10.0.dev2301",
-  "multicast": "2025.10.0.dev2302",
-  "observer": "2025.11.0.dev0601",
+  "cli": "2026.02.1.dev1001",
+  "dns": "2026.02.0.dev1001",
+  "audio": "2026.02.0.dev1003",
+  "multicast": "2026.02.0.dev1004",
+  "observer": "2026.02.0.dev1002",
   "images": {
     "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
     "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
