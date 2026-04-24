@@ -1,7 +1,67 @@
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>nginx/1.17.10</center>
-</body>
-</html>
+{
+  "channel": "dev",
+  "supervisor": "2026.04.1.dev2302",
+  "homeassistant": {
+    "default": "2026.5.0.dev202604230315",
+    "qemux86-64": "2026.5.0.dev202604230315",
+    "qemuarm-64": "2026.5.0.dev202604230315",
+    "generic-x86-64": "2026.5.0.dev202604230315",
+    "intel-nuc": "2026.5.0.dev202604230315",
+    "khadas-vim3": "2026.5.0.dev202604230315",
+    "raspberrypi3-64": "2026.5.0.dev202604230315",
+    "raspberrypi4-64": "2026.5.0.dev202604230315",
+    "raspberrypi5-64": "2026.5.0.dev202604230315",
+    "yellow": "2026.5.0.dev202604230315",
+    "green": "2026.5.0.dev202604230315",
+    "odroid-c2": "2026.5.0.dev202604230315",
+    "odroid-c4": "2026.5.0.dev202604230315",
+    "odroid-m1": "2026.5.0.dev202604230315",
+    "odroid-n2": "2026.5.0.dev202604230315"
+  },
+  "hassos": {
+    "ova": "18.0.dev20260420",
+    "rpi3-64": "18.0.dev20260420",
+    "rpi4-64": "18.0.dev20260420",
+    "rpi5-64": "18.0.dev20260420",
+    "yellow": "18.0.dev20260420",
+    "green": "18.0.dev20260420",
+    "odroid-c2": "18.0.dev20260420",
+    "odroid-c4": "18.0.dev20260420",
+    "odroid-m1": "18.0.dev20260420",
+    "odroid-m1s": "18.0.dev20260420",
+    "odroid-n2": "18.0.dev20260420",
+    "generic-x86-64": "18.0.dev20260420",
+    "generic-aarch64": "18.0.dev20260420",
+    "khadas-vim3": "18.0.dev20260420"
+  },
+  "hassos-upgrade": {
+    "15": "15.2",
+    "14": "15.2",
+    "13": "15.2",
+    "12": "15.2",
+    "11": "11.5",
+    "10": "10.5",
+    "9": "9.5",
+    "8": "8.5",
+    "7": "7.6",
+    "6": "6.6",
+    "5": "5.13",
+    "4": "4.20",
+    "3": "3.13"
+  },
+  "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
+  "cli": "2026.03.0.dev3101",
+  "dns": "2026.03.0.dev2301",
+  "audio": "2026.03.0.dev2402",
+  "multicast": "2026.03.0.dev2302",
+  "observer": "2026.03.0.dev2301",
+  "images": {
+    "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
+    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
+    "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
+    "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
+    "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
+    "observer": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-observer",
+    "multicast": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-multicast"
+  }
+}
