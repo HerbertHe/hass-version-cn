@@ -1,7 +1,75 @@
-<html>
-<head><title>502 Bad Gateway</title></head>
-<body>
-<center><h1>502 Bad Gateway</h1></center>
-<hr><center>nginx/1.17.10</center>
-</body>
-</html>
+{
+  "channel": "stable",
+  "supervisor": "2026.05.0",
+  "homeassistant": {
+    "default": "2026.5.1",
+    "qemux86": "2025.11.3",
+    "qemux86-64": "2026.5.1",
+    "qemuarm": "2025.11.3",
+    "qemuarm-64": "2026.5.1",
+    "generic-x86-64": "2026.5.1",
+    "intel-nuc": "2026.5.1",
+    "khadas-vim3": "2026.5.1",
+    "raspberrypi": "2025.11.3",
+    "raspberrypi2": "2025.11.3",
+    "raspberrypi3": "2025.11.3",
+    "raspberrypi3-64": "2026.5.1",
+    "raspberrypi4": "2025.11.3",
+    "raspberrypi4-64": "2026.5.1",
+    "raspberrypi5-64": "2026.5.1",
+    "yellow": "2026.5.1",
+    "green": "2026.5.1",
+    "tinker": "2025.11.3",
+    "odroid-c2": "2026.5.1",
+    "odroid-c4": "2026.5.1",
+    "odroid-m1": "2026.5.1",
+    "odroid-n2": "2026.5.1",
+    "odroid-xu": "2025.11.3"
+  },
+  "hassos": {
+    "ova": "17.3",
+    "rpi3-64": "17.3",
+    "rpi4-64": "17.3",
+    "rpi5-64": "17.3",
+    "yellow": "17.3",
+    "green": "17.3",
+    "odroid-c2": "17.3",
+    "odroid-c4": "17.3",
+    "odroid-m1": "17.3",
+    "odroid-m1s": "17.3",
+    "odroid-n2": "17.3",
+    "generic-x86-64": "17.3",
+    "generic-aarch64": "17.3",
+    "khadas-vim3": "17.3"
+  },
+  "hassos-upgrade": {
+    "15": "15.2",
+    "14": "15.2",
+    "13": "15.2",
+    "12": "15.2",
+    "11": "11.5",
+    "10": "10.5",
+    "9": "9.5",
+    "8": "8.5",
+    "7": "7.6",
+    "6": "6.6",
+    "5": "5.13",
+    "4": "4.20",
+    "3": "3.13"
+  },
+  "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
+  "cli": "2026.05.0",
+  "dns": "2026.02.0",
+  "audio": "2026.02.0",
+  "multicast": "2026.02.0",
+  "observer": "2026.02.0",
+  "images": {
+    "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
+    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
+    "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
+    "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
+    "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
+    "observer": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-observer",
+    "multicast": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-multicast"
+  }
+}
