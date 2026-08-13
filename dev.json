@@ -1,6 +1,6 @@
 {
   "channel": "dev",
-  "supervisor": "2026.08.0.dev0406",
+  "supervisor": "2026.08.0.dev1201",
   "homeassistant": {
     "default": "2026.9.0.dev202608100252",
     "qemux86-64": "2026.9.0.dev202608100252",
@@ -19,20 +19,20 @@
     "odroid-n2": "2026.9.0.dev202608100252"
   },
   "hassos": {
-    "ova": "18.3.dev20260810",
-    "rpi3-64": "18.3.dev20260810",
-    "rpi4-64": "18.3.dev20260810",
-    "rpi5-64": "18.3.dev20260810",
-    "yellow": "18.3.dev20260810",
-    "green": "18.3.dev20260810",
-    "odroid-c2": "18.3.dev20260810",
-    "odroid-c4": "18.3.dev20260810",
-    "odroid-m1": "18.3.dev20260810",
-    "odroid-m1s": "18.3.dev20260810",
-    "odroid-n2": "18.3.dev20260810",
-    "generic-x86-64": "18.3.dev20260810",
-    "generic-aarch64": "18.3.dev20260810",
-    "khadas-vim3": "18.3.dev20260810"
+    "ova": "18.3.dev20260812",
+    "rpi3-64": "18.3.dev20260812",
+    "rpi4-64": "18.3.dev20260812",
+    "rpi5-64": "18.3.dev20260812",
+    "yellow": "18.3.dev20260812",
+    "green": "18.3.dev20260812",
+    "odroid-c2": "18.3.dev20260812",
+    "odroid-c4": "18.3.dev20260812",
+    "odroid-m1": "18.3.dev20260812",
+    "odroid-m1s": "18.3.dev20260812",
+    "odroid-n2": "18.3.dev20260812",
+    "generic-x86-64": "18.3.dev20260812",
+    "generic-aarch64": "18.3.dev20260812",
+    "khadas-vim3": "18.3.dev20260812"
   },
   "hassos-upgrade": {
     "15": "15.2",
@@ -50,11 +50,11 @@
     "3": "3.13"
   },
   "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
-  "cli": "2026.08.0.dev0701",
+  "cli": "2026.08.0.dev1101",
   "dns": "2026.08.0.dev0504",
-  "audio": "2026.07.0.dev3001",
+  "audio": "2026.08.0.dev1102",
   "multicast": "2026.08.0.dev0701",
-  "observer": "2026.07.0.dev3001",
+  "observer": "2026.08.0.dev1101",
   "images": {
     "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
     "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
