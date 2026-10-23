@@ -1,2 +1,67 @@
-429: Too Many Requests
-For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service).
+{
+  "channel": "dev",
+  "supervisor": "2026.10.4.dev2204",
+  "homeassistant": {
+    "default": "2026.11.0.dev202610230226",
+    "qemux86-64": "2026.11.0.dev202610230226",
+    "qemuarm-64": "2026.11.0.dev202610230226",
+    "generic-x86-64": "2026.11.0.dev202610230226",
+    "intel-nuc": "2026.11.0.dev202610230226",
+    "khadas-vim3": "2026.11.0.dev202610230226",
+    "raspberrypi3-64": "2026.11.0.dev202610230226",
+    "raspberrypi4-64": "2026.11.0.dev202610230226",
+    "raspberrypi5-64": "2026.11.0.dev202610230226",
+    "yellow": "2026.11.0.dev202610230226",
+    "green": "2026.11.0.dev202610230226",
+    "odroid-c2": "2026.11.0.dev202610230226",
+    "odroid-c4": "2026.11.0.dev202610230226",
+    "odroid-m1": "2026.11.0.dev202610230226",
+    "odroid-n2": "2026.11.0.dev202610230226"
+  },
+  "hassos": {
+    "ova": "19.0.dev20261022",
+    "rpi3-64": "19.0.dev20261022",
+    "rpi4-64": "19.0.dev20261022",
+    "rpi5-64": "19.0.dev20261022",
+    "yellow": "19.0.dev20261022",
+    "green": "19.0.dev20261022",
+    "odroid-c2": "19.0.dev20261022",
+    "odroid-c4": "19.0.dev20261022",
+    "odroid-m1": "19.0.dev20261022",
+    "odroid-m1s": "19.0.dev20261022",
+    "odroid-n2": "19.0.dev20261022",
+    "generic-x86-64": "19.0.dev20261022",
+    "generic-aarch64": "19.0.dev20261022",
+    "khadas-vim3": "19.0.dev20261022"
+  },
+  "hassos-upgrade": {
+    "15": "15.2",
+    "14": "15.2",
+    "13": "15.2",
+    "12": "15.2",
+    "11": "11.5",
+    "10": "10.5",
+    "9": "9.5",
+    "8": "8.5",
+    "7": "7.6",
+    "6": "6.6",
+    "5": "5.13",
+    "4": "4.20",
+    "3": "3.13"
+  },
+  "ota": "https://os-artifacts.home-assistant.io/{version}/{os_name}_{board}-{version}.raucb",
+  "cli": "2026.10.1.dev2201",
+  "dns": "2026.10.0.dev2201",
+  "audio": "2026.10.0.dev2201",
+  "multicast": "2026.10.0.dev2201",
+  "observer": "2026.10.0.dev0601",
+  "images": {
+    "core": "ghcr.nju.edu.cn/home-assistant/{machine}-homeassistant",
+    "supervisor": "docker.nju.edu.cn/herberthe0229/{arch}-hassio-supervisor",
+    "cli": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-cli",
+    "audio": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-audio",
+    "dns": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-dns",
+    "observer": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-observer",
+    "multicast": "ghcr.nju.edu.cn/home-assistant/{arch}-hassio-multicast"
+  }
+}
